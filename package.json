@@ -1,6 +1,6 @@
 {
-  "name": "rpi-gpio",
-  "version": "1.0.0",
+  "name": "rpi-gpio3",
+  "version": "2.0.0",
   "description": "Control Raspberry Pi GPIO pins with node.js",
   "main": "rpi-gpio.js",
   "keywords:": [
@@ -13,9 +13,9 @@
     "integration": "integration"
   },
   "devDependencies": {
-    "mocha": "1.18.2",
-    "sinon": "1.9.0",
-    "istanbul": "0.2.7"
+    "mocha": "5.2.0",
+    "sinon": "7.0.0",
+    "istanbul": "0.4.5"
   },
   "scripts": {
     "test": "mocha",
@@ -27,13 +27,13 @@
     "type": "git",
     "url": "https://github.com/JamesBarwell/rpi-gpio.js.git"
   },
-  "author": "James Barwell <jb@jamesbarwell.co.uk>",
+  "author": "Masvis srl",
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "async": "1.5.2",
-    "debug": "2.6.9",
-    "epoll": "0.1.22",
-    "promise": "7.1.1"
+    "async": "2.6.1",
+    "debug": "4.1.0",
+    "epoll": "2.0.6",
+    "promise": "8.0.2"
   }
 }
